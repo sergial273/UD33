@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .visor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .miniaturas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+  }
+  
+  .miniaturas img {
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .imagen-grande {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imagen-grande img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #pieDeFoto {
+    text-align: center;
+    margin-top: 10px;
+  }
+  

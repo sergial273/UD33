@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>El primer script</title>
+
+    <!-- Mensaje de aviso para navegadores sin soporte de JavaScript -->
+    <noscript>
+      <p>
+        Advertencia: Tu navegador no tiene activado el soporte de JavaScript.
+        Algunas funcionalidades pueden no estar disponibles.
+      </p>
+    </noscript>
+  </head>
+
+  <body>
+
+    <div class="visor">
+      <div class="miniaturas" id="miniaturas">
+        <img src="./img/foto1.jpg" alt="Foto 1" onclick="mostrarImagen('./img/foto1.jpg', 'Foto 1')">
+        <img src="./img/foto2.jpg" alt="Foto 2" onclick="mostrarImagen('./img/foto2.jpg', 'Foto 2')">
+        <img src="./img/foto3.jpg" alt="Foto 3" onclick="mostrarImagen('./img/foto3.jpg', 'Foto 3')">
+        <img src="./img/foto4.jpg" alt="Foto 4" onclick="mostrarImagen('./img/foto4.jpg', 'Foto 4')">
+        <img src="./img/foto5.jpg" alt="Foto 5" onclick="mostrarImagen('./img/foto5.jpg', 'Foto 5')">
+        <img src="./img/foto6.jpg" alt="Foto 6" onclick="mostrarImagen('./img/foto6.jpg', 'Foto 6')">
+        <img src="./img/foto7.jpg" alt="Foto 7" onclick="mostrarImagen('./img/foto7.jpg', 'Foto 7')">
+        <img src="./img/foto8.jpg" alt="Foto 8" onclick="mostrarImagen('./img/foto8.jpg', 'Foto 8')">
+      </div>
+      <div class="imagen-grande" id="imagenGrande">
+        <img src="./img/foto1.jpg" alt="Foto 1">
+        <p id="pieDeFoto">Foto 1</p>
+      </div>
+    </div>
+  
+    <script type="text/javascript" src="./js/codigo.js"></script>
+  </body>
+</html>
